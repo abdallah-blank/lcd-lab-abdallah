@@ -10,7 +10,7 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);  // Create an LCD object
 
 void reactionGame() {
   lcd.clear();    // Clear the LCD screen
-  lcd.print("Get Ready..."); // Inform the player to get ready
+  lcd.print("Get FLYING..."); // Inform the player to get ready
   delay(random(3000,6001));
 
   lcd.clear();                 
